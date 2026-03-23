@@ -1,0 +1,94 @@
+============================================
+     CARD RUN GAME - Design Pattern Demo    
+============================================
+Target skor: 500 poin
+Kamu punya 3 ronde untuk mencapainya!
+
+--- Ronde 1 dari 3 ---
+Total skor: 0 | Target: 500
+Modifier aktif:
+  (tidak ada modifier aktif)
+
+[FASE: BERMAIN KARTU]
+
+  Kartu yang kamu mainkan: 4, 1, 3, 9, 3
+  Bonus pasangan +20!
+  Skor dasar tangan: 40
+
+[FASE: HITUNG SKOR]
+
+  [Scoring] Skor dasar: 40
+  => Skor akhir ronde ini: 40
+  Koin diperoleh: +2
+
+[FASE: TOKO]
+
+========== TOKO MODIFIER ==========
+Koin kamu: 12
+Modifier tersedia (harga 5 koin):
+  [1] double  - Double Boost   : skor x2
+  [2] flat    - Flat Boost      : skor +50
+  [3] square  - Square Surge    : skor^2
+  [0] skip   - Lewati toko
+Pilih modifier (ketik nama atau 0): Berhasil membeli: Double Boost!
+Koin tersisa: 7
+
+--- Ronde 2 dari 3 ---
+Total skor: 40 | Target: 500
+Modifier aktif:
+  [1] Double Boost - Menggandakan total skor (x2)
+
+[FASE: BERMAIN KARTU]
+
+  Kartu yang kamu mainkan: 2, 2, 6, 3, 10
+  Bonus pasangan +20!
+  Skor dasar tangan: 43
+
+[FASE: HITUNG SKOR]
+
+  [Scoring] Skor dasar: 43
+  [Scoring] Double Boost diterapkan: 43 -> 86
+  => Skor akhir ronde ini: 86
+  Koin diperoleh: +4
+
+[FASE: TOKO]
+
+========== TOKO MODIFIER ==========
+Koin kamu: 11
+Modifier tersedia (harga 5 koin):
+  [1] double  - Double Boost   : skor x2
+  [2] flat    - Flat Boost      : skor +50
+  [3] square  - Square Surge    : skor^2
+  [0] skip   - Lewati toko
+Pilih modifier (ketik nama atau 0): Berhasil membeli: Flat Boost!
+Koin tersisa: 6
+
+--- Ronde 3 dari 3 ---
+Total skor: 126 | Target: 500
+Modifier aktif:
+  [1] Double Boost - Menggandakan total skor (x2)
+  [2] Flat Boost - Menambah 50 poin ke skor
+
+[FASE: BERMAIN KARTU]
+
+  Kartu yang kamu mainkan: 7, 3, 7, 3, 8
+  Bonus pasangan +20!
+  Bonus pasangan +20!
+  Skor dasar tangan: 68
+
+[FASE: HITUNG SKOR]
+
+  [Scoring] Skor dasar: 68
+  [Scoring] Double Boost diterapkan: 68 -> 136
+  [Scoring] Flat Boost diterapkan: 136 -> 186
+  => Skor akhir ronde ini: 186
+  Koin diperoleh: +9
+
+============================================
+            AKHIR PERMAINAN
+============================================
+Total Skor Akhir  : 312
+Target            : 500
+HASIL             : Belum berhasil. Coba lagi!
+Kurang            : 188 poin
+============================================
