@@ -1,0 +1,7 @@
+# Binary hasil kompilasi - jangan di-commit
+card_run
+*.exe
+*.o
+
+# Konfigurasi VS Code - hanya untuk lokal
+.vscode/
